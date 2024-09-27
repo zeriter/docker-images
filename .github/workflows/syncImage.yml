@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/mysql:8.3.0 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/mysql:8.3.0
+         skopeo copy docker://docker.io/minio/minio:RELEASE.2024-03-10T02-53-48Z docker://registry.cn-hangzhou.aliyuncs.com/zeriter/minio:RELEASE.2024-03-10T02-53-48Z
