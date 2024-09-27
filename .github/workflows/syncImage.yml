@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/registry:2.8.2 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/registry:2.8.2
+         skopeo copy docker://docker.io/joxit/docker-registry-ui:maindocker://registry.cn-hangzhou.aliyuncs.com/zeriter/docker-registry-ui:main
