@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/joxit/docker-registry-ui:main docker://registry.cn-hangzhou.aliyuncs.com/zeriter/docker-registry-ui:main
+         skopeo copy docker://docker.io/rabbitmq:3.13-management docker://registry.cn-hangzhou.aliyuncs.com/zeriter/rabbitmq:3.13-management
