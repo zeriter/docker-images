@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/neo4j:5.23.0 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/neo4j:5.23.0
+         skopeo copy docker://docker.io/nginx:1.27.1 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/nginx:1.27.1
