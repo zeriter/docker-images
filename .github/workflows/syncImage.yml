@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.elastic.co/logstash/logstash:8.15.2 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/logstash:8.15.2
+         skopeo copy docker://docker.io/neo4j:5.23.0 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/neo4j:5.23.0
