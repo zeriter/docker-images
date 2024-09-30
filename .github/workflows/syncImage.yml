@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/nacos/nacos-server:v2.4.2.1 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/nacos-server:v2.4.2.1
+         skopeo copy docker://docker.io/docker.elastic.co/elasticsearch/elasticsearch:8.15.2 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/elasticsearch:8.15.2
