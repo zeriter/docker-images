@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/jenkinsci/blueocean:last docker://registry.cn-hangzhou.aliyuncs.com/zeriter/blueocean:last
+         skopeo copy docker://docker.io/jenkins/jenkins:latest docker://registry.cn-hangzhou.aliyuncs.com/zeriter/jenkins:latest
