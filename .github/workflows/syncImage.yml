@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/jenkins/jenkins:latest docker://registry.cn-hangzhou.aliyuncs.com/zeriter/jenkins:latest
+         skopeo copy docker://docker.io/tensorflow/tensorflow:latest docker://registry.cn-hangzhou.aliyuncs.com/zeriter/tensorflow:latest
