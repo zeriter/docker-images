@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/tensorflow/tensorflow:latest-jupyter docker://registry.cn-hangzhou.aliyuncs.com/zeriter/tensorflow:latest-jupyter
+         skopeo copy docker://docker.io/ghcr.io/opensumi/opensumi-web:latest docker://registry.cn-hangzhou.aliyuncs.com/zeriter/opensumi-web:latest
