@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/opensumi/opensumi-web:latest docker://registry.cn-hangzhou.aliyuncs.com/zeriter/opensumi-web:latest
+         skopeo copy docker://docker.io/pgvector/pgvector:0.7.0-pg15 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/pgvector:0.7.0-pg15
