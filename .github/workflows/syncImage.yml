@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/pgvector/pgvector:0.7.0-pg15 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/pgvector:0.7.0-pg15
+         skopeo copy docker://docker.io/mongo:5.0.18 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/mongo:5.0.18
