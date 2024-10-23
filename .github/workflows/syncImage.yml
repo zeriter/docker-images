@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/labring/fastgpt:v4.8.11 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/fastgpt:v4.8.11
+         skopeo copy docker://docker.io/mysql:8.0.36 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/mysql:8.0.36
