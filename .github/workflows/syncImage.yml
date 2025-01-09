@@ -22,4 +22,4 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://ghcr.io/songquanpeng/one-api:v0.6.7 docker://registry.cn-hangzhou.aliyuncs.com/zeriter/one-api:v0.6.7
+         skopeo copy docker:/ghcr.io/open-webui/open-webui:main docker://registry.cn-hangzhou.aliyuncs.com/zeriter/open-webui:main
